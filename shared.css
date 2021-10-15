@@ -1,0 +1,440 @@
+ 
+/*@font-face{
+   font-family: "roboto";
+   src: url("Fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+   font-family: "roboto";
+   src: url("Fonts/Roboto/Roboto-Italic.ttf");
+   font-style: italic;
+}
+
+@font-face {
+   font-family: "Roboto";
+   src: url("Fonts/Roboto/Roboto-Bold.ttf");
+   font-weight: bold;
+}
+
+@font-face {
+   font-family: "roboto";
+   src: url("Fonts/Roboto/Roboto-Light.ttf");
+   font-weight: 100;
+}
+
+@font-face{
+   font-family: "roboto";
+   src: url("Fonts/Roboto/Roboto-Medium.ttf");
+   font-weight: 500;
+}
+
+@font-face {
+   font-family: "roboto";
+   src: url("Fonts/Roboto/Roboto-MediumItalic.ttf");
+   font-weight: 500;
+   font-style: italic;
+}
+
+@font-face {
+   font-family: "roboto";
+   src: url("Fonts/Roboto/Roboto-BoldItalic.ttf");
+   font-weight: bold;
+   font-style: italic;
+}*/
+
+
+@font-face {
+   font-family: 'Roboto';
+   src: url('Fonts/Roboto/Roboto-Black.eot');
+   src: url('Fonts/Roboto/Roboto-Black.eot?#iefix') format('embedded-opentype'),
+       url('Fonts/Roboto/Roboto-Black.woff2') format('woff2'),
+       url('Fonts/Roboto/Roboto-Black.woff') format('woff'),
+       url('Fonts/Roboto/Roboto-Black.ttf') format('truetype');
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Roboto';
+   src: url('Fonts/Roboto/Roboto-BlackItalic.eot');
+   src: url('Fonts/Roboto/Roboto-BlackItalic.eot?#iefix') format('embedded-opentype'),
+       url('Fonts/Roboto/Roboto-BlackItalic.woff2') format('woff2'),
+       url('Fonts/Roboto/Roboto-BlackItalic.woff') format('woff'),
+       url('Fonts/Roboto/Roboto-BlackItalic.ttf') format('truetype');
+   font-weight: 900;
+   font-style: italic;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Roboto';
+   src: url('Fonts/Roboto/Roboto-Bold.eot');
+   src: url('Fonts/Roboto/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+       url('Fonts/Roboto/Roboto-Bold.woff2') format('woff2'),
+       url('Fonts/Roboto/Roboto-Bold.woff') format('woff'),
+       url('Fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Roboto';
+   src: url('Fonts/Roboto/Roboto-BoldItalic.eot');
+   src: url('Fonts/Roboto/Roboto-BoldItalic.eot?#iefix') format('embedded-opentype'),
+       url('Fonts/Roboto/Roboto-BoldItalic.woff2') format('woff2'),
+       url('Fonts/Roboto/Roboto-BoldItalic.woff') format('woff'),
+       url('Fonts/Roboto/Roboto-BoldItalic.ttf') format('truetype');
+   font-weight: bold;
+   font-style: italic;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Roboto';
+   src: url('Fonts/Roboto/Roboto-Light.eot');
+   src: url('Fonts/Roboto/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+       url('Fonts/Roboto/Roboto-Light.woff2') format('woff2'),
+       url('Fonts/Roboto/Roboto-Light.woff') format('woff'),
+       url('Fonts/Roboto/Roboto-Light.ttf') format('truetype');
+   font-weight: 300;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Roboto';
+   src: url('Fonts/Roboto/Roboto-LightItalic.eot');
+   src: url('Fonts/Roboto/Roboto-LightItalic.eot?#iefix') format('embedded-opentype'),
+       url('Fonts/Roboto/Roboto-LightItalic.woff2') format('woff2'),
+       url('Fonts/Roboto/Roboto-LightItalic.woff') format('woff'),
+       url('Fonts/Roboto/Roboto-LightItalic.ttf') format('truetype');
+   font-weight: 300;
+   font-style: italic;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Roboto';
+   src: url('Fonts/Roboto/Roboto-Italic.eot');
+   src: url('Fonts/Roboto/Roboto-Italic.eot?#iefix') format('embedded-opentype'),
+       url('Fonts/Roboto/Roboto-Italic.woff2') format('woff2'),
+       url('Fonts/Roboto/Roboto-Italic.woff') format('woff'),
+       url('Fonts/Roboto/Roboto-Italic.ttf') format('truetype');
+   font-weight: normal;
+   font-style: italic;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Roboto';
+   src: url('Fonts/Roboto/Roboto-MediumItalic.eot');
+   src: url('Fonts/Roboto/Roboto-MediumItalic.eot?#iefix') format('embedded-opentype'),
+       url('Fonts/Roboto/Roboto-MediumItalic.woff2') format('woff2'),
+       url('Fonts/Roboto/Roboto-MediumItalic.woff') format('woff'),
+       url('Fonts/Roboto/Roboto-MediumItalic.ttf') format('truetype');
+   font-weight: 500;
+   font-style: italic;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Roboto';
+   src: url('Fonts/Roboto/Roboto-Medium.eot');
+   src: url('Fonts/Roboto/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+       url('Fonts/Roboto/Roboto-Medium.woff2') format('woff2'),
+       url('Fonts/Roboto/Roboto-Medium.woff') format('woff'),
+       url('Fonts/Roboto/Roboto-Medium.ttf') format('truetype');
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Roboto';
+   src: url('Fonts/Roboto/Roboto-Regular.eot');
+   src: url('Fonts/Roboto/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+       url('Fonts/Roboto/Roboto-Regular.woff2') format('woff2'),
+       url('Fonts/Roboto/Roboto-Regular.woff') format('woff'),
+       url('Fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Roboto';
+   src: url('Fonts/Roboto/Roboto-Thin.eot');
+   src: url('Fonts/Roboto/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
+       url('Fonts/Roboto/Roboto-Thin.woff2') format('woff2'),
+       url('Fonts/Roboto/Roboto-Thin.woff') format('woff'),
+       url('Fonts/Roboto/Roboto-Thin.ttf') format('truetype');
+   font-weight: 100;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Roboto';
+   src: url('Fonts/Roboto/Roboto-ThinItalic.eot');
+   src: url('Fonts/Roboto/Roboto-ThinItalic.eot?#iefix') format('embedded-opentype'),
+       url('Fonts/Roboto/Roboto-ThinItalic.woff2') format('woff2'),
+       url('Fonts/Roboto/Roboto-ThinItalic.woff') format('woff'),
+       url('Fonts/Roboto/Roboto-ThinItalic.ttf') format('truetype');
+   font-weight: 100;
+   font-style: italic;
+   font-display: swap;
+}
+
+
+
+
+ /*Core styles*/
+
+ html{
+    scroll-behavior: smooth;
+ }
+
+ body{
+   margin: 0px;
+   font-family: "roboto", sans-serif;
+}
+
+a {
+   transition: all 0.3s ease-in-out;
+}
+
+button{
+   font-family: inherit;
+   transition: all 0.3s ease-in-out;
+}
+
+.container{
+   width: 1140px;
+   margin: 0 auto;
+}
+
+.to-uppercase{
+   text-transform: uppercase;
+}
+
+.clearfix{ /*clearfix bu floatlardan tozaledi*/
+   clear: both;
+}
+
+.section-subtitle{
+   letter-spacing: 2px;
+   margin-bottom: 0.625rem; /* 10px= 10/16=0.625rem */
+   font-weight: 500;
+   color: #797979;
+   text-transform: uppercase;
+}
+.section-title{
+   margin-top: 0.32rem;
+   font-size: 2.62rem;
+   font-weight: 700;
+   text-transform: capitalize;
+   color: #05364d;
+}
+
+.button{
+   border: none;
+   background: linear-gradient(to right, #1345e6, #ed239f 51%, #1345e6 100% );
+   background-size: 200% auto;
+   color: #ffffff;
+   font-weight: 500;
+   font-size: 0.87rem;
+   padding: 1.25rem 2.5rem;
+   cursor: pointer;
+   border-radius: 10px;
+}   
+
+.button:hover{
+   background-position: right center;
+}
+
+.blur-line{
+   display: inline-block;
+   position: relative;
+   top: -2px;
+   width: 80px;
+   margin-left: 0.32rem; /*5px/16px=0.32rem*/
+   height: 4px;
+   background-color: #ed239f99;
+   filter: blur(4px);
+   border-radius: 4px;
+}
+
+.blur-line1{
+   display: inline-block;
+   width: 60px;
+   margin-top: 0.32rem; /*5px/16px=0.32rem*/
+   height: 2.5px;
+   filter: blur(0.5px);
+   border-radius: 2px;
+   background: linear-gradient(90deg, rgb(19, 69, 230) 0%, rgb(237, 35, 159) 100%);
+
+   
+}
+
+/*Main header styles*/
+
+.main-header{
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   background-color: white;
+   box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 30%);
+   z-index: 10;
+} 
+
+.main-header .container{
+   display: flex;
+   align-items: center;
+}
+
+.main-header__brand img{
+   width: 64px;
+}
+
+.main-navigation__item{
+   display: inline-block;
+   padding: 0.625rem; /*10px/16px=0.625rem*/
+}
+.main-navigation__item a{
+   color:#05364d;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 0.75rem; /*12px/16px=0.75rem*/
+   font-weight: 500;
+}
+
+.main-navigation__item a:hover{
+   color: #efb6df;    
+}
+.main-navigation__item.active a{
+   color: #efb6df;
+}
+
+
+ /*footer section styles*/
+
+.footer{
+   padding: 100px;
+   background-color: #021017;
+   text-align: center;
+   margin-top: 50px;
+} 
+
+.footer__brand img {
+   width: 128px;
+   margin-bottom: 20px;
+}
+
+.footer-title{
+   background: linear-gradient(90deg, #1345e6, #ed239f 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   letter-spacing: 5px;
+   margin-bottom: 25px; 
+   color: #fff;
+   font-size: 2rem;
+   font-weight: 500;
+}
+
+.footer-navigation__items{
+   margin-bottom: 2.25rem;
+}
+
+.footer-navigation__item{
+   display: inline-block;
+   padding: 0 10px;
+}
+
+.footer-navigation__item a{
+   color: white;
+   text-decoration: none;
+}
+
+.footer__socials{
+   list-style: none;
+}
+
+.footer-social{
+   display: inline-block;
+   width: 45px;
+   height: 45px;
+   line-height: 45px;
+   text-align: center;
+   background-color: #fff;
+   border-radius: 36px;
+   color: #05364d;
+   font-size: 1rem;
+   margin-right: 12px;
+   margin-bottom: 30px;
+}
+
+.footer-social a{
+   color: #021017;
+}
+
+.footer-social:hover{
+   background: linear-gradient(90deg, #1345e6, #ed239f 100%);
+}
+
+.footer-social:hover i{
+   color: white;
+}
+
+.footer-text{
+   color: #797979;
+}
+
+ /*Responsive ko'rinishga keltirish*/
+
+@media only screen and (max-width: 991px) {
+   .container{
+      width: 90%;
+   }
+      /*navigation menu*/
+   .main-navigation{
+      display: none;
+   }
+
+    /*footer section styles*/
+
+   .footer-navigation{
+      display: none;
+   }
+   
+}
+
+
+@media only screen and (max-width: 767px) {
+   .container{
+      width: 92%;
+   }
+
+   .footer-title{
+      
+   }
+
+   .footer-socials{
+      box-sizing: border-box;
+   }
+   .footer__social{
+      display: none;
+      box-sizing: border-box;
+   }
+   .footer .footer-social{
+      display: none;
+   }
+
+   .footer-text b{
+      display: none;
+   }
+} 
+
+   
